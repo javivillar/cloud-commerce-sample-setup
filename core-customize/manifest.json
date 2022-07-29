@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2105",
+    "commerceSuiteVersion": "2205",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
@@ -108,6 +108,10 @@
             "properties": [],
             "webapps": [
                 {
+                 “name”:“samlsinglesignon”,
+                 “contextPath”:“/samlsinglesignon”
+                },                
+                {
                     "name": "hac",
                     "contextPath": "/hac"
                 },
@@ -125,6 +129,7 @@
                }
             ]
         },
+            
         {
             "name": "accstorefront",
             "properties": [
@@ -276,7 +281,8 @@
         }
     ],
     "tests": {
-        "extensions": [],
+        "extensions": [
+            “samlssobackoffice”],
         "annotations": [
             "UnitTests",
             "IntegrationTests"
