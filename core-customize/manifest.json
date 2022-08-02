@@ -289,7 +289,7 @@
             "IntegrationTests"
         ],
         "packages": [
-            "com.acme.*"
+            "com.acme.*+"
         ]
     }
 }
