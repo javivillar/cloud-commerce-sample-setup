@@ -1,10 +1,10 @@
 {
-    "commerceSuiteVersion": "2205",
+    "commerceSuiteVersion": "2105",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
         "mediaconversionbackoffice",
-        “samlssobackoffice”
+        "samlssobackoffice"
     ],
     "useConfig": {
         "properties": [
@@ -109,8 +109,8 @@
             "properties": [],
             "webapps": [
                 {
-                 “name”:“samlsinglesignon”,
-                 “contextPath”:“/samlsinglesignon”
+                 "name":"samlsinglesignon",
+                 "contextPath":"/samlsinglesignon"
                 },                
                 {
                     "name": "hac",
